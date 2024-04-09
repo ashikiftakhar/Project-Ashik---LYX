@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="us-eng">
+<head>
+    <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/lyx.jpeg" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>LYX Newsletter</title>
+
+<meta charset="UTF-8">
+<style>
+        div.background{
+        
+        
+        opacity: 0,2;
+        background-size: 100% 100%;
+        opacity: 0,3;
+        
+    }
+
+
+         
+        * {
+        box-sizing: border-box;
+        box-shadow: #00a19c;
+        color: rgb(220, 31, 31);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+        
+    }
+         
+        input[type=text], select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #df0a0a;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 10px;
+            resize: vertical;
+        }
+         
+        .container {
+            width: 720px;
+            border-radius: 5px;
+           <!-- background-image: url(./images/lyx.jpeg);-->
+            padding: 20px;
+            opacity: 0,2;
+        }
+         
+        button {
+            background-color: #4b4241;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+         
+        button:hover {
+            background-color: #00a19c;
+        }
+         
+        input[type=text]:focus{
+            outline: 1px solid black;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+</style>
+         
+
+ 
+</head>
+
+<body>
+<!--<audio src="./music/bmusic.mp3" controls autoplay>
+    <p>If you are reading this, it is because your browser does not support the audio element.     </p>
+</audio> -->
+    
+    <div class="background">
+        <h1>Subscribe to our newsletter</h1>
+        <p>Our free monthly newsletter informs you about new products and current developments.</p>
+
+        <div class="container">
+            
+        <form action="https://web.inxmail.com/[organisation]/subscription/servletv2" method="post" id="displayform">
+                    <input type="hidden" name="INXMAIL_SUBSCRIPTION" value="[list name]"/>
+                    <input type="hidden" name="INXMAIL_HTTP_REDIRECT" value="[URL for landing page "Success"]"/>
+                    <input type="hidden" name="INXMAIL_HTTP_REDIRECT_ERROR" value="[URL for landing page "Error"]"/>
+                    <input type="hidden" name="INXMAIL_CHARSET" value="UTF-8"/>
+            <label>Email*
+                    <input type="text" name="email" placeholder="Enter your Email">
+               </label>
+                <label>Salutation
+                        <select name="Salutation">
+                            <option value="male">Mr</option>
+                            <option value="female">Ms</option>
+                            <option value="neutral">Divers</option>
+                        </select>
+                </label>
+                   <label>First name
+                        <input type="text" name="First name">
+                   </label>
+                   <label>Last name
+                        <input type="text" name="Last name">
+                   </label>
+                <label>
+                    <input type="checkbox" name="INXMAIL_TRACKINGPERMISSION">
+                        Yes, I agree to my personal user behaviour in the newsletter being collected and analysed so that the content of the newsletter can be targeted better to my personal interests. I can deactivate this function at any time via a link in the newsletter.<br>
+                   </label>
+        <button class="g-recaptcha" data-sitekey="6Ld673sUAAAAANIr4kvsqp3F1i4iiOatKNVWVCL2" data-callback='onSubmit'>Subscribe</button>
+            </form>
+        </div>
+        </div>
+        
+</body>
+</html>

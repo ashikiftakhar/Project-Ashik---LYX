@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/lyx.jpeg" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Happy New Year</title>
+</head>
+<body>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #container {
+    background-color: #fff;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../Assignment1_HappyNewYear/images/Banner Image.png');
+    height: 600px;
+        position: relative;
+        margin: 0 auto;
+        padding: 0 140px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Merriweather', sans-serif;
+    border-radius: 16px;
+  }
+  
+  .quotes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    background-image: url(lyx.jpg);
+  }
+  
+  .banner__main_quote {
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .banner_alt_quote {
+    text-align: center;
+    color: rgb(255, 204, 0);
+    text-decoration: #F00;
+    text-shadow: #070211;
+    font-family: 'Merriweather', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+  }
+  
+  #discount {
+    
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        padding-top: 140px;
+        align-items: center;
+        text-align: center;
+  }
+
+  #discount p
+  {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+
+   
+    
+  }
+
+  #discount h3{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 16px;
+
+}
+
+  #discount h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 45px;
+ 
+  }
+
+ 
+
+  .party_banner1{
+            background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../Assignment1_HappyNewYear/images/Vectorrr.png);
+            height: 600px;
+            background-repeat:no-repeat;
+            border-radius:16px;
+            position: relative;
+            top: 1212px;
+            display: flex;
+            flex-wrap: nowrap;
+            
+  }
+  
+  .party_banner_left {
+    text-align: left;
+    margin: 126px;
+    width: 697px;
+  }
+  .party_banner_right {
+    text-align: right;
+    margin-right: 138px;
+    margin-top: 68px;
+  }
+  .welcome_note {
+color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px; 
+letter-spacing: 7.04px;
+    
+}
+.welcome_description {
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+  }
+
+  .welcome_join {
+
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+padding-left: 32px;
+top: 48px;
+position: relative;
+  
+  }
+
+  .lyx{
+    text-align: center;
+    text-decoration-color: #F00;
+    text-shadow: #070211;
+
+  }
+
+  .party_banner2 {
+
+            background :linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);  
+            height: 482px;
+            text-align: center;
+            justify-content: center;
+            background-repeat:no-repeat;
+            padding: 100px 385px;
+            position: relative;
+            top: 1332px;
+  }
+            
+
+.mark{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+    
+}
+
+.mark_ans{
+color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+.join_btn{
+border-radius: 8px;
+background: #F00;
+display: inline-flex;
+padding: 16px 32px;
+margin-top: 48px;
+border: 0;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.coming_soon_section{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: -1452px;
+  align-items:center;
+  line-height: 2;
+}
+.coming_left {
+  text-align: left;
+  padding-right: 70px;
+}
+.coming_highlight{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+text-transform:uppercase;
+
+}
+.coming_soon_title{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+
+}
+
+.coming_description{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.coming_middle > img{
+  border-radius: 50%;
+  border: 15px solid #F00;
+  width: 463px;
+  height: 463px;
+  margin-right: 65px;
+  padding: 49px;
+}
+
+.year_highlight{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.coming_right{
+  line-height: 5;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.year_logo {
+
+  margin-top: 43px;
+}
+
+.holiday_sales_section{
+
+  position: relative;
+  bottom: -1692px;
+  line-height: 2;
+  text-align: center;
+  align-items:center;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the element horizontally */
+  width: 650px;  
+
+}
+
+.holiday_sales__title{
+  color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+.holiday_sales_description{
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; 
+}
+
+.sales_red{
+color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+
+}
+
+.sales_black{
+color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+
+}
+
+.discount_banner_bottom{
+ 
+  height: 229px;
+  position: relative;
+  bottom: -1420px;
+  display: flex;
+  align-items: flex-end;
+  background-color:white;
+  background-repeat:no-repeat;
+  background-color:rgba(255, 0, 0, 1);
+
+
+  
+}
+
+.gift-box{
+    height: 580px;
+    width: 750px;
+    position: relative;
+    z-index: 1;
+    left: 138px;
+    top: 14px;
+
+}
+
+.discount_banner_top{
+
+display: flex;
+justify-content: center;
+position: relative;
+align-items: center;
+flex-wrap: nowrap;
+bottom: -1610px;
+
+}
+.discount_banner_top> .percentage_banner{
+  position: relative;
+  left: 125px;
+  z-index: 1;
+  bottom: 100px;
+}
+
+.giftbox_girl{
+  position: relative;
+  bottom: 115px;
+  right: 56px;
+}
+.portfolio_section{
+  position: relative;
+  top: 1540px;
+  align-items:center;
+  line-height: 2;
+  width: 900px;
+}
+.products_image{
+ position: relative;
+ top:1600px;
+
+}
+.products_image> img{
+  margin: 6px;
+  transition: 1s ease;
+}
+.products_image > img:hover{
+-webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+transform: rotateZ(-10deg);
+transition: 1s ease;
+}
+
+.newsletter_section{
+
+  height: 616px;
+  position: relative;
+  top: 1700px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  padding-top: 80px; 
+  line-height: 50px;
+ 
+ 
+  
+}
+
+.newsletter_description {
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+text-indent: 50px;
+display: inline-flex;
+width: 896px;
+
+
+}
+.email-input-section {
+  
+  align-items: center;
+  margin-top: 48px;
+}
+
+.email-input-section input {
+  
+  border-radius: 5px;
+  width: 648px;
+  height: 72px;
+  background: #FFF;
+  border:0;
+  font-size: 20px;
+  padding-left: 20px;
+  margin: 0;
+ 
+
+}
+
+.email-input-section button {
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
+width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border:0;
+margin: 0;
+
+}
+
+.footer_section{
+
+height: 400px;
+background: #070211;
+position: relative;
+bottom:-1800px;
+
+}
+
+.footer_top_left{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+position: relative;
+left: 9%;
+top: 120px;
+
+}
+.footer_top_right{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+text-align: right;
+position: absolute;
+right: 9%;
+top: 120px;
+}
+
+hr {
+width: 1320px;
+height: 1px;
+background: rgba(255, 255, 255, 0.1);
+opacity: .2;
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.social_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_media_section{
+  position: relative;
+  top: 160px;
+}
+.social_icon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.social_icon a img {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+
+.copyright_section{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+position: relative;
+display: flex;
+justify-content: space-around;
+bottom: -300px;
+}
+
+.copyright_section a{
+  text-decoration: none;
+  color: #FFF;
+
+
+}
+  </style>>
+    <main>
+      <div id="container" class="container">
+        <header class="header">
+            <!-- This is the discount and banner section -->
+          <div class="quotes">
+            <span class="banner_alt_quote">wellcome to<br> LYX COLLECTION</span>
+            <h1 style="font-family: Impact; font-size: 60px; color: darkcyan;"><br>New Year Party Celerration</h1>
+            
+          </div>
+        </header>
+  
+        <div id="discount">
+          <p>65% OFF</p>
+          <h3>OUR HOLIDAY DEALS ARE BETTER</h3>
+          <h2>ALL CATEGORIES</h2>
+          <img src="./images/New Year Photo.png" alt="Ashik Hassan">
+          
+        </div>
+            <!-- This is the party Section -->
+        <div class="body_party">
+          <div class="party_banner1">
+                <div class="party_banner_left">
+                    <span class="welcome_note">Welcome to midnight party</span> <br>
+                    <span class="welcome_description">Dive into a world of endless fun and revelry at our midnight party, where the night is young and the festivities never end!</span><br>
+                  <a href="#" class="welcome_join" style="text-decoration:none; color:white;">Join Now</a>
+
+                </div>
+                <div class="party_banner_right">
+                    <img src="images/Group 70.png" alt="2025">
+                </div>
+          </div>
+
+  
+          <div class="party_banner2">
+            <span class="mark">Place:</span><span class="mark_ans"> Partyland Sickla</span><br>
+            <span class="mark">Date:</span><span class="mark_ans"> 31 December Night 2024</span><br>
+            <span class="mark">Time:</span><span class="mark_ans"> Evening 10.30 pm to 2.30 am</span>
+            <button class="join_btn" type="submit" form="form1" value="Submit">Join Now</button>
+          </div>
+        </div>
+        <!-- This is the Coming soon section -->
+
+        <div class="coming_soon_section">
+            <div class="coming_left">
+              <span class="coming_highlight">NEW BEST OFFER</span> <br>
+              <span class="coming_soon_title">Coming Soon</span><br>
+              <span class="coming_description">Join us as we transform into a  vibrant spectacle of lights, music, and electrifying rhythms, where the night sky comes alive with the promise of new beginnings</span>
+              
+            </div>
+            <div class="coming_middle">
+              <img src="./images/Ellipse 1.png" alt="celebration_image">
+            </div>
+
+            <div class="coming_right">
+              <span class="year_highlight">2024</span> <br>
+              <span class="coming_description">Join us as we transform into a vibrant spectacle of lights, music, and electrifying rhythms, where the night sky comes alive with the promise of new beginnings.</span>
+              <img class="year_logo" src="./images/Group 96.png" alt="year logo">
+            </div>
+        </div>
+
+
+          <!-- This is the HOLIDAY Sales section -->
+
+            <div class="holiday_sales_section">
+                <span class="holiday_sales__title">WHAT IS FUNCTIONAL</span> <br>
+                <span class="sales_red">Holidays</span><span class="sales_black"> Sales 50%</span> <br>
+                <span class="holiday_sales_description">Join us as we transform into a  vibrant spectacle of lights, music, and electrifying rhythms, where the night sky comes alive with the promise of new beginnings.
+                  Sure, here is a more extended version of the text:
+                  
+                  Embrace the magic of the holiday season with our Incredible 50% sale!</span>
+                
+              </div>
+         <!-- This is the HOLIDAY Discount banner section -->
+
+            <div class="discount_banner">
+                  <div class="discount_banner_top">
+                    <img class="gift-box" src="./images/Group_75-removebg-preview.png" alt="gift box">
+                    <img class="percentage_banner" src="./images/Group 44.png" alt="50% banner"> 
+                    <img class="giftbox_girl" src=".images/Rectangle 1.png" alt="girl with gift">
+                      
+                  </div>
+              </div>
+
+              <div class="discount_banner_bottom">
+                
+
+              </div>
+          <!-- This is the Portfolio Section -->
+
+          <div class="portfolio_section">
+            <span class="coming_highlight">The best gift</span> <br>
+            <span class="coming_soon_title">Our Awesome Portfolio</span><br>
+            <span class="coming_description">We are committed to providing our customers with exceptional service and satisfaction. Every order is backed by our guarantee, so you can shop with confidence knowing that your purchase is protected.</span> 
+          </div>
+          <!-- This is the product showcase section -->
+            <div class="products_image">
+              <img src="./images/Rectangle 3.png" alt="">
+              <img src="./images/Rectangle 4.png" alt="">
+              <img src="./images/Rectangle 5.png" alt="">
+              <img src="./images/Rectangle 6.png" alt="">
+              <img src="./images/Rectangle 7.png" alt="">
+              <img src="./images/Rectangle 8.png" alt="">
+            </div>
+
+            <!-- This is the Newsletter section -->
+
+
+            <div class="newsletter_section">
+              <img class="newsletter_icon" src="./images/Group 61.png" alt="email icon"><br>
+              <span class="coming_soon_title">Subscribe Newsletter</span><br>
+              <span class="newsletter_description">Try our service free for 3 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.</span> 
+              <div class="email-input-section">
+                  <input type="email" id="email" placeholder="user@domain.com">
+                  <a href="subscription.html">
+                    <button>Subscribe</button>
+                </a>
+                  
+              </div>
+            </div>
+
+      </div>
+    
+    </main>
+      <!-- This is the footer section -->
+    <footer>
+
+        <h1 style="font-family: Impact; font-size: 60px; color: darkcyan;"><br>New Year Party Celerration</h1>
+        <div class="footer_section">
+          <div class="footer_top_left">
+            <p>Barnhemsvagen 36<br>Hasselby 16576 Stockholm</p>
+          </div>
+          <div class="footer_top_right">
+            <img src="./images/Call.png" alt="call icon"> +46 76 955 2955 <br>
+            <a href="www.website.com" style="text-decoration: none; color: white;"> 
+              <img src="./images/Website.png" alt="website icon"> www.lyxcollection.com
+            </a>
+          </div>
+          <div class="social_media_section">
+            <hr>
+            <div class="social_icon">
+              <a href="https://www.facebook.com/people/LYX-Collection/61556257302876/"><img src="./images/Facebook.png" title="Welcome to LYX Collection facebook" alt="fb icon"></a>
+              <a href="https://www.instagram.com/ashikiftakhar?igsh=d3VxbGU2Mjl1bXFu&utm_source=qr"><img src="./images/Instagram.png" title="Welcome to LYX Collection instagram" alt="instagram icon is not active yet"></a>
+              <a href="https://twitter.com/"><img src=".//images/Twitter.png" title="twitter account isn't active yet" alt="twitter icon"></a>
+            </div>
+            <hr>
+          </div>
+
+          <div class="copyright_section">
+            <span>2024, All Rights Reserved to LYX Collection.</span>
+        </div>
+         
+
+          
+
+        </div>
+    </footer>
+  </body>
+</html>
